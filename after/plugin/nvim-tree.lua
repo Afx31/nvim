@@ -5,6 +5,12 @@ vim.g.loaded_netrwPlugin = 1
 -- optionally enable 24-bit colour
 vim.opt.termguicolors = true
 
+-- nvim-tree
+vim.keymap.set("n", "<leader>tt", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>tf", ":NvimTreeFocus<CR>", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>op", ":NvimTreeOpen<CR>", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>h", ":NvimTreeClose<CR>", { noremap = true, silent = true })
+
 -- empty setup using defaults
 require("nvim-tree").setup()
 

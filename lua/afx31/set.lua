@@ -30,7 +30,8 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+-- Column line marker
+vim.opt.colorcolumn = "120"
 
 -- Leader key
 vim.g.mapleader = " "

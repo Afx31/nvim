@@ -1,12 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
--- nvim-tree
-vim.keymap.set("n", "<leader>tt", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>tf", ":NvimTreeFocus<CR>", { noremap = true, silent = true })
---vim.keymap.set("n", "<leader>op", ":NvimTreeOpen<CR>", { noremap = true, silent = true })
---vim.keymap.set("n", "<leader>h", ":NvimTreeClose<CR>", { noremap = true, silent = true })
-
 -- Moves the highlighted row up or down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
