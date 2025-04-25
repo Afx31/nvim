@@ -3,7 +3,7 @@
 
 -- Line numbers
 vim.opt.nu = true
---vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- 4 space indenting
 vim.opt.tabstop = 4
